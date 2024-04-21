@@ -1,0 +1,41 @@
+.app {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cont {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 50vh;
+  background: rgb(154, 159, 158);
+  align-items: center;
+  width: 40%;
+  border-radius: 10px;
+}
+.cont form button {
+  background-color: rgb(29, 143, 73);
+}
+form {
+  padding: 10px;
+  width: 50%;
+}
+form,
+form label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+form label textarea {
+  height: 60px;
+}
+form label button {
+  height: 30px;
+}
+form label input {
+  border-radius: 5px;
+}
+p {
+  text-decoration: solid;
+}
